@@ -34,7 +34,7 @@ In the box spam follow the steps:
 
 9.Next
 
-10. Mark "Hide File Extraction Progress Animation from User" and enter the target path and a name.
+10.Mark "Hide File Extraction Progress Animation from User" and enter the target path and a name.
 
 11.Mark "No restart"
 
