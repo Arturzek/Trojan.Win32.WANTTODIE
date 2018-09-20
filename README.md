@@ -1,12 +1,16 @@
 # Trojan.Win32.WANTTODIE
 A trojan inspired in 2 viruses of FlyTech:
 000.exe
+
 Mysterious Game
 
 Used:
 C#
+
 C++
+
 Batch
+
 Visual Basic Script (vbs)
 
 To build the virus in Visual Studio you must have
