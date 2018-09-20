@@ -1,12 +1,7 @@
 #include "stdafx.h"
-#include <iostream>
-#include <string>
-#include <Windows.h>
 
 #pragma comment(lib, "ntdll.lib")
 
-
-using namespace std;
 
 /*Copied from:
 *
