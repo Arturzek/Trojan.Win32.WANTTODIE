@@ -1,5 +1,6 @@
 # Trojan.Win32.WANTTODIE
 A trojan inspired in 2 viruses of FlyTech:
+
 000.exe
 
 Mysterious Game
