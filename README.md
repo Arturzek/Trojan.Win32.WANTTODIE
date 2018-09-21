@@ -13,7 +13,7 @@ C++
 
 Batch
 
-Visual Basic Script (vbs)
+Visual Basic Script (VBS)
 
 To build the virus in Visual Studio you must have
 https://drive.google.com/file/d/1JQe1erpH6BDPo3f6EdO_pVXnKxQ-WkA-/view?usp=sharing
