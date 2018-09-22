@@ -36,10 +36,12 @@ namespace CreepyProject
             gkh.HookedKeys.Add(Keys.LWin);
             gkh.HookedKeys.Add(Keys.Tab);
             gkh.HookedKeys.Add(Keys.Alt);
+            gkh.HookedKeys.Add(Keys.Escape);
 
 
 
             gkh.KeyDown += new KeyEventHandler(handleKey);
+            gkh.hook();
         }
 
         private void handleKey(object sender, KeyEventArgs e)
