@@ -1,17 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Utilities;
 using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.IO;
-
+using System.Threading;
 
 
 namespace CreepyProject
@@ -25,18 +16,19 @@ namespace CreepyProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ERROR 666 0x666666");
+            Thread.Sleep(1000);
+            MessageBox.Show("ERROR 666 0x666666", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error3);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             globalKeyboardHook gkh = new globalKeyboardHook();
+            gkh.HookedKeys.Add(Keys.Escape);
             gkh.HookedKeys.Add(Keys.Delete);
             gkh.HookedKeys.Add(Keys.RWin);
             gkh.HookedKeys.Add(Keys.LWin);
             gkh.HookedKeys.Add(Keys.Tab);
             gkh.HookedKeys.Add(Keys.Alt);
-            gkh.HookedKeys.Add(Keys.Escape);
 
 
 
