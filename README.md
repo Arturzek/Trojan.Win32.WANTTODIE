@@ -13,17 +13,13 @@ C++
 
 Batch
 
-Visual Basic Script (VBS)
-
 To build the virus in Visual Studio you must have
 https://drive.google.com/file/d/1JQe1erpH6BDPo3f6EdO_pVXnKxQ-WkA-/view?usp=sharing
 (the mp4 video)
 
-Build the BSOD and have Box Spam Compiled in the resources.
-
 Build BSOD in C++, just copy the main code.
 
-In the box spam follow the steps:
+In the box spam follow the steps(WE WILL NOT USE THIS YET):
 
 1.Open CMD as a administrator
 
