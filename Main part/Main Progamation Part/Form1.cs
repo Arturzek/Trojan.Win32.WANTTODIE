@@ -17,7 +17,7 @@ namespace CreepyProject
         private void button2_Click(object sender, EventArgs e)
         {
             Thread.Sleep(1000);
-            MessageBox.Show("ERROR 666 0x666666", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error3);
+            MessageBox.Show("ERROR 666 0x666666", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void Form1_Load(object sender, EventArgs e)
