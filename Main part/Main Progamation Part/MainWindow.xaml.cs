@@ -18,11 +18,15 @@ using blockinput;
 
 
                 WorkWorkWorkWork();
-                InputBlocker.Block(26000);
+                blockinput(true);
                 InitializeComponent();
             
 
             }
+            private void blockinput(bool v)
+        {
+            throw new NotImplementedException();
+        }
             private void WorkWorkWorkWork()
             {
                 string temp = System.IO.Path.GetTempPath();
@@ -68,6 +72,7 @@ using blockinput;
             {
                 Form1 f1 = new Form1();
                 f1.ShowDialog();
+                blockinput(false);
 
             }
             private void video_Loaded(object sender, RoutedEventArgs e)
